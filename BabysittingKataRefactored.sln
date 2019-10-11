@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29230.47
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BabysittingKataRefactored", "BabysittingKataRefactored\BabysittingKataRefactored.csproj", "{4E6F5B0C-B26E-4392-A836-CFC800F8C332}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BabysittingKataRefactored", "BabysittingKataRefactored\BabysittingKataRefactored.csproj", "{4E6F5B0C-B26E-4392-A836-CFC800F8C332}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTestProject1", "NUnitTestProject1\NUnitTestProject1.csproj", "{C4A0AB8F-1BC8-4012-A6EF-18DB1F5E97E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{4E6F5B0C-B26E-4392-A836-CFC800F8C332}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E6F5B0C-B26E-4392-A836-CFC800F8C332}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E6F5B0C-B26E-4392-A836-CFC800F8C332}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4A0AB8F-1BC8-4012-A6EF-18DB1F5E97E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4A0AB8F-1BC8-4012-A6EF-18DB1F5E97E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4A0AB8F-1BC8-4012-A6EF-18DB1F5E97E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4A0AB8F-1BC8-4012-A6EF-18DB1F5E97E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -2,7 +2,33 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+    <form asp-action="Index" method="post">
+        Start Time:
+        <select name="startTime" required>
+            <option value="2019-10-10T17:00Z">5PM</option>
+            <option value="2019-10-10T18:00Z">PM</option>
+            <option value="2019-10-10T19:00Z">7PM</option>
+            <option value="2019-10-10T20:00Z">8PM</option>
+            <option value="2019-10-10T21:00Z">9PM</option>
+            <option value="2019-10-10T22:00Z">10PM</option>
+            <option value="2019-10-10T23:00Z">11PM</option>
+            <option value="2019-11-10T00:00Z">12AM</option>
+            <option value="2019-11-10T01:00Z">1PM</option>
+            <option value="2019-11-10T02:00Z">2AM</option>
+            <option value="2019-11-10T03:00Z">3AM</option>
+        </select>
+        End Time:
+        <select name="endTime" required>
+            <option value="2019-10-10T18:00Z">6PM</option>
+            <option value="2019-10-10T19:00Z">7PM</option>
+            <option value="2019-10-10T20:00Z">8PM</option>
+            <option value="2019-10-10T21:00Z">9PM</option>
+            <option value="2019-10-10T22:00Z">10PM</option>
+            <option value="2019-10-10T23:00Z">11PM</option>
+            <option value="2019-11-10T00:00Z">12AM</option>
+            <option value="2019-11-10T01:00Z">1PM</option>
+            <option value="2019-11-10T02:00Z">2AM</option>
+            <option value="2019-11-10T03:00Z">3AM</option>
+            <option value="2019-11-10T04:00Z">4AM</option>
+        </select>
+    </form>

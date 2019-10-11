@@ -10,14 +10,22 @@ namespace BabysittingKataRefactored.Controllers
 {
     public class HomeController : Controller
     {
+
         public IActionResult Index()
         {
             return View();
         }
 
-        public IActionResult Privacy()
+        [HttpPost]
+        public IActionResult Index(string startTime, string endTime)
         {
-            return View();
+
+            return RedirectToActionPermanent("Index");
+        }
+        public TimeSpan TimeDifference(DateTime startTime, DateTime endTime)
+        {
+            TimeSpan differenceBetweenStartAndEndTime = endTime.Subtract(startTime);
+            return differenceBetweenStartAndEndTime;
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
