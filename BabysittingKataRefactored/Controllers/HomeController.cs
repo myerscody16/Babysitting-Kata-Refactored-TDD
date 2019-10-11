@@ -19,7 +19,9 @@ namespace BabysittingKataRefactored.Controllers
         [HttpPost]
         public IActionResult Index(string startTime, string endTime)
         {
-
+            DateTime start = Convert.ToDateTime(startTime);
+            DateTime end = Convert.ToDateTime(endTime);
+            TimeSpan timeDifference = TimeDifference(start, end);
             return RedirectToActionPermanent("Index");
         }
         public TimeSpan TimeDifference(DateTime startTime, DateTime endTime)
