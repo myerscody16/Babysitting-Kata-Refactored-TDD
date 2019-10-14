@@ -1,26 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\myers\\source\\repos\\BabysittingKataRefactored\\BabysittingKataRefactored\\BabysittingKataRefactored.csproj": {}
+    "C:\\Users\\Cody's PC\\Desktop\\Babysitting-Kata-Refactored-TDD\\BabysittingKataRefactored\\BabysittingKataRefactored.csproj": {}
   },
   "projects": {
-    "C:\\Users\\myers\\source\\repos\\BabysittingKataRefactored\\BabysittingKataRefactored\\BabysittingKataRefactored.csproj": {
+    "C:\\Users\\Cody's PC\\Desktop\\Babysitting-Kata-Refactored-TDD\\BabysittingKataRefactored\\BabysittingKataRefactored.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\myers\\source\\repos\\BabysittingKataRefactored\\BabysittingKataRefactored\\BabysittingKataRefactored.csproj",
+        "projectUniqueName": "C:\\Users\\Cody's PC\\Desktop\\Babysitting-Kata-Refactored-TDD\\BabysittingKataRefactored\\BabysittingKataRefactored.csproj",
         "projectName": "BabysittingKataRefactored",
-        "projectPath": "C:\\Users\\myers\\source\\repos\\BabysittingKataRefactored\\BabysittingKataRefactored\\BabysittingKataRefactored.csproj",
-        "packagesPath": "C:\\Users\\myers\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\myers\\source\\repos\\BabysittingKataRefactored\\BabysittingKataRefactored\\obj\\",
+        "projectPath": "C:\\Users\\Cody's PC\\Desktop\\Babysitting-Kata-Refactored-TDD\\BabysittingKataRefactored\\BabysittingKataRefactored.csproj",
+        "packagesPath": "C:\\Users\\Cody's PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Cody's PC\\Desktop\\Babysitting-Kata-Refactored-TDD\\BabysittingKataRefactored\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\myers\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Cody's PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"

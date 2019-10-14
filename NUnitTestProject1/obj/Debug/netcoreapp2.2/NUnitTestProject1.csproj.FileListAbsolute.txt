@@ -17,3 +17,22 @@ C:\Users\myers\source\repos\BabysittingKataRefactored\NUnitTestProject1\bin\Debu
 C:\Users\myers\source\repos\BabysittingKataRefactored\NUnitTestProject1\obj\Debug\netcoreapp2.2\NUnitTestProject1.csproj.CopyComplete
 C:\Users\myers\source\repos\BabysittingKataRefactored\NUnitTestProject1\obj\Debug\netcoreapp2.2\NUnitTestProject1.dll
 C:\Users\myers\source\repos\BabysittingKataRefactored\NUnitTestProject1\obj\Debug\netcoreapp2.2\NUnitTestProject1.pdb
+C:\Users\Cody's PC\Desktop\Babysitting-Kata-Refactored-TDD\NUnitTestProject1\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.dll
+C:\Users\Cody's PC\Desktop\Babysitting-Kata-Refactored-TDD\NUnitTestProject1\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.pdb
+C:\Users\Cody's PC\Desktop\Babysitting-Kata-Refactored-TDD\NUnitTestProject1\bin\Debug\netcoreapp2.2\nunit.engine.netstandard.dll
+C:\Users\Cody's PC\Desktop\Babysitting-Kata-Refactored-TDD\NUnitTestProject1\bin\Debug\netcoreapp2.2\BabysittingKataRefactored.Views.dll
+C:\Users\Cody's PC\Desktop\Babysitting-Kata-Refactored-TDD\NUnitTestProject1\bin\Debug\netcoreapp2.2\BabysittingKataRefactored.Views.pdb
+C:\Users\Cody's PC\Desktop\Babysitting-Kata-Refactored-TDD\NUnitTestProject1\bin\Debug\netcoreapp2.2\NUnitTestProject1.deps.json
+C:\Users\Cody's PC\Desktop\Babysitting-Kata-Refactored-TDD\NUnitTestProject1\bin\Debug\netcoreapp2.2\NUnitTestProject1.runtimeconfig.json
+C:\Users\Cody's PC\Desktop\Babysitting-Kata-Refactored-TDD\NUnitTestProject1\bin\Debug\netcoreapp2.2\NUnitTestProject1.runtimeconfig.dev.json
+C:\Users\Cody's PC\Desktop\Babysitting-Kata-Refactored-TDD\NUnitTestProject1\bin\Debug\netcoreapp2.2\NUnitTestProject1.dll
+C:\Users\Cody's PC\Desktop\Babysitting-Kata-Refactored-TDD\NUnitTestProject1\bin\Debug\netcoreapp2.2\NUnitTestProject1.pdb
+C:\Users\Cody's PC\Desktop\Babysitting-Kata-Refactored-TDD\NUnitTestProject1\bin\Debug\netcoreapp2.2\BabysittingKataRefactored.dll
+C:\Users\Cody's PC\Desktop\Babysitting-Kata-Refactored-TDD\NUnitTestProject1\bin\Debug\netcoreapp2.2\BabysittingKataRefactored.pdb
+C:\Users\Cody's PC\Desktop\Babysitting-Kata-Refactored-TDD\NUnitTestProject1\obj\Debug\netcoreapp2.2\NUnitTestProject1.csprojAssemblyReference.cache
+C:\Users\Cody's PC\Desktop\Babysitting-Kata-Refactored-TDD\NUnitTestProject1\obj\Debug\netcoreapp2.2\NUnitTestProject1.csproj.CoreCompileInputs.cache
+C:\Users\Cody's PC\Desktop\Babysitting-Kata-Refactored-TDD\NUnitTestProject1\obj\Debug\netcoreapp2.2\NUnitTestProject1.AssemblyInfoInputs.cache
+C:\Users\Cody's PC\Desktop\Babysitting-Kata-Refactored-TDD\NUnitTestProject1\obj\Debug\netcoreapp2.2\NUnitTestProject1.AssemblyInfo.cs
+C:\Users\Cody's PC\Desktop\Babysitting-Kata-Refactored-TDD\NUnitTestProject1\obj\Debug\netcoreapp2.2\NUnitTestProject1.csproj.CopyComplete
+C:\Users\Cody's PC\Desktop\Babysitting-Kata-Refactored-TDD\NUnitTestProject1\obj\Debug\netcoreapp2.2\NUnitTestProject1.dll
+C:\Users\Cody's PC\Desktop\Babysitting-Kata-Refactored-TDD\NUnitTestProject1\obj\Debug\netcoreapp2.2\NUnitTestProject1.pdb

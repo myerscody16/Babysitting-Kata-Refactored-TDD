@@ -4414,7 +4414,7 @@
       ]
     },
     "System.ComponentModel.Primitives/4.3.0": {
-      "sha512": "KMVuoQ+8bMQ/Z59M3s64num5AD74X5YSqVc7ibwGkPTfmmkl2W8VuSxLRJtpw4KzQrSKUgR0BLbF0adPfcTSGQ==",
+      "sha512": "j8GUkCpM8V4d4vhLIIoBLGey2Z5bCkMVNjEZseyAlm4n5arcsJOeI3zkUP+zvZgzsbLTYh4lYeP/ZD/gdIAPrw==",
       "type": "package",
       "path": "system.componentmodel.primitives/4.3.0",
       "files": [
@@ -4452,7 +4452,7 @@
       ]
     },
     "System.ComponentModel.TypeConverter/4.3.0": {
-      "sha512": "HZiP0DwTHJ+C+rdFqP47nBYUh5283kcwXIGY2zOVVhsJmVI/2tYiX2zNRdjRQRHsTox58Ydkec6h0pWSh8wAsw==",
+      "sha512": "16pQ6P+EdhcXzPiEK4kbA953Fu0MNG2ovxTZU81/qsCd1zPRsKc3uif5NgvllCY598k6bI0KUyKW8fanlfaDQg==",
       "type": "package",
       "path": "system.componentmodel.typeconverter/4.3.0",
       "files": [
@@ -7359,27 +7359,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\myers\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Users\\Cody's PC\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\myers\\source\\repos\\BabysittingKataRefactored\\NUnitTestProject1\\NUnitTestProject1.csproj",
+      "projectUniqueName": "C:\\Users\\Cody's PC\\Desktop\\Babysitting-Kata-Refactored-TDD\\NUnitTestProject1\\NUnitTestProject1.csproj",
       "projectName": "NUnitTestProject1",
-      "projectPath": "C:\\Users\\myers\\source\\repos\\BabysittingKataRefactored\\NUnitTestProject1\\NUnitTestProject1.csproj",
-      "packagesPath": "C:\\Users\\myers\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\myers\\source\\repos\\BabysittingKataRefactored\\NUnitTestProject1\\obj\\",
+      "projectPath": "C:\\Users\\Cody's PC\\Desktop\\Babysitting-Kata-Refactored-TDD\\NUnitTestProject1\\NUnitTestProject1.csproj",
+      "packagesPath": "C:\\Users\\Cody's PC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Cody's PC\\Desktop\\Babysitting-Kata-Refactored-TDD\\NUnitTestProject1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\myers\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\Cody's PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
@@ -7391,8 +7388,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\myers\\source\\repos\\BabysittingKataRefactored\\BabysittingKataRefactored\\BabysittingKataRefactored.csproj": {
-              "projectPath": "C:\\Users\\myers\\source\\repos\\BabysittingKataRefactored\\BabysittingKataRefactored\\BabysittingKataRefactored.csproj"
+            "C:\\Users\\Cody's PC\\Desktop\\Babysitting-Kata-Refactored-TDD\\BabysittingKataRefactored\\BabysittingKataRefactored.csproj": {
+              "projectPath": "C:\\Users\\Cody's PC\\Desktop\\Babysitting-Kata-Refactored-TDD\\BabysittingKataRefactored\\BabysittingKataRefactored.csproj"
             }
           }
         }
