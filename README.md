@@ -1,4 +1,4 @@
-This project uses the TDD methodology and the C# (.NET core) to allow a babysitter to calculate their nightly charge based on which family they are babysitting for.
+This project uses the TDD methodology and the C# (.NET core) language to allow a babysitter to calculate their nightly charge based on which family they are babysitting for.
 
 In this project, I use the ASP.NET framework to build a web application that completes the task described above. This program works by having a user input the family they are babysitting for as well as a start and end time. 
 From here, the program takes them in using a hard-coded date and makes sure that the start and end times are valid. Then depending on the family, uses a specific method to calculate the nightly charge and then displays it in a result view.
