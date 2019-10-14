@@ -10,7 +10,10 @@ namespace BabysittingKataRefactored.Controllers
 {
     public class HomeController : Controller
     {
-
+        [TempData]
+        public string message { get; set; }
+        [TempData]
+        public int total { get; set; }
         public IActionResult Index()
         {
             return View();
@@ -21,21 +24,30 @@ namespace BabysittingKataRefactored.Controllers
         {
             DateTime start = DateTime.Parse(startTime);
             DateTime end = DateTime.Parse(endTime);
+            if(start >= end)
+            {
+                message = "That time is invalid, please select a valid time.";
+                return RedirectToAction("Index");
+            }
             TimeSpan timeDifference = TimeDifference(start, end);
-            int costOfAppointment = 0;
+            //int costOfAppointment = 0;
             if(familyLetter == "A")
             {
-                costOfAppointment = CalculateFamilyATotal(start, end);
+                total = CalculateFamilyATotal(start, end);
             }
             else if (familyLetter == "B")
             {
-                costOfAppointment = CalculateFamilyATotal(start, end);
+                total = CalculateFamilyBTotal(start, end);
             }
             else if (familyLetter == "C")
             {
-                costOfAppointment = CalculateFamilyATotal(start, end);
+                total = CalculateFamilyCTotal(start, end);
             }
-            return RedirectToAction("Index",costOfAppointment);
+            return RedirectToAction("Result");
+        }
+        public IActionResult Result(int costOfAppointment)
+        {
+            return View(costOfAppointment);
         }
         public TimeSpan TimeDifference(DateTime startTime, DateTime endTime)
         {
@@ -83,24 +95,51 @@ namespace BabysittingKataRefactored.Controllers
             }
             return total;
         }
-        //public int CalculateFamilyBTotal(DateTime start, DateTime end)
-        //{
-        //    int total = 0;
-        //    int firstHourlyTotal = 0;
-        //    int secondHourlyTotal = 0;
-        //    DateTime firstCutOffTime = DateTime.Parse("2019-10-10T23:00Z");
-        //    DateTime secondCutOffTime = DateTime.Parse("2019-11-10T04:00Z");
-        //    if (start < firstCutOffTime && end > firstCutOffTime)
-        //    {
-        //        firstHourlyTotal = Convert.ToInt32(firstCutOffTime.Subtract(start).TotalHours);
-        //        secondHourlyTotal = Convert.ToInt32(end.Subtract(firstCutOffTime).TotalHours);
-        //        total += firstHourlyTotal * 15;
-        //        total += secondHourlyTotal * 20;
-        //    }
-        //    else if(start)
-
-        //    return total;
-        //}
+        public int CalculateFamilyBTotal(DateTime start, DateTime end)
+        {
+            int total = 0;
+            DateTime firstCutOffTime = DateTime.Parse("2019-10-10T22:00");
+            DateTime secondCutOffTime = DateTime.Parse("2019-10-11T00:00");
+            if(start < firstCutOffTime && end > secondCutOffTime)
+            {
+                int differenceBetweenStartAndFirstCutOff = Convert.ToInt32(firstCutOffTime.Subtract(start).TotalHours);
+                total += differenceBetweenStartAndFirstCutOff * 12;
+                int differenceBetweenTheCutOffTimes = Convert.ToInt32(secondCutOffTime.Subtract(firstCutOffTime).TotalHours);
+                total += differenceBetweenTheCutOffTimes * 8;
+                int differenceBetweenSecondCutOffAndEnd = Convert.ToInt32(end.Subtract(secondCutOffTime).TotalHours);
+                total += differenceBetweenSecondCutOffAndEnd * 16;
+            }
+            else if(end <= firstCutOffTime)
+            {
+                int differenceBetweenEndandStart = Convert.ToInt32(end.Subtract(start).TotalHours);
+                total += differenceBetweenEndandStart * 12;
+            }
+            else if(start < firstCutOffTime && end <= secondCutOffTime)
+            {
+                int differenceBetweenFirstCutOffAndStart = Convert.ToInt32(firstCutOffTime.Subtract(start).TotalHours);
+                total += differenceBetweenFirstCutOffAndStart * 12;
+                int differenceBetweenEndAndFirstCutOff = Convert.ToInt32(end.Subtract(firstCutOffTime).TotalHours);
+                total += differenceBetweenEndAndFirstCutOff * 8;
+            }
+            else if(start >= firstCutOffTime && start < secondCutOffTime && end > secondCutOffTime)
+            {
+                int differenceBetweenStartAndSecondCutOff = Convert.ToInt32(secondCutOffTime.Subtract(start).TotalHours);
+                total += differenceBetweenStartAndSecondCutOff * 8;
+                int differenceBetweenEndAndSecondCutOff = Convert.ToInt32(end.Subtract(secondCutOffTime).TotalHours);
+                total += differenceBetweenEndAndSecondCutOff * 16;
+            }
+            else if(start >= firstCutOffTime && end <= secondCutOffTime)
+            {
+                int differenceBetweenStartAndEnd = Convert.ToInt32(end.Subtract(start).TotalHours);
+                total += differenceBetweenStartAndEnd * 8;
+            }
+            else if(start>=secondCutOffTime)
+            {
+                int differenceBetweenStartAndEnd = Convert.ToInt32(end.Subtract(start).TotalHours);
+                total += differenceBetweenStartAndEnd * 16;
+            }
+            return total;
+        }
         public int CalculateFamilyCTotal(DateTime start, DateTime end)
         {
             int total = 0;

@@ -58,3 +58,4 @@ C:\Users\Cody's PC\Desktop\Babysitting-Kata-Refactored-TDD\BabysittingKataRefact
 C:\Users\Cody's PC\Desktop\Babysitting-Kata-Refactored-TDD\BabysittingKataRefactored\obj\Debug\netcoreapp2.2\BabysittingKataRefactored.dll
 C:\Users\Cody's PC\Desktop\Babysitting-Kata-Refactored-TDD\BabysittingKataRefactored\obj\Debug\netcoreapp2.2\BabysittingKataRefactored.pdb
 C:\Users\Cody's PC\Desktop\Babysitting-Kata-Refactored-TDD\BabysittingKataRefactored\obj\Debug\netcoreapp2.2\BabysittingKataRefactored.csproj.CopyComplete
+C:\Users\Cody's PC\Desktop\Babysitting-Kata-Refactored-TDD\BabysittingKataRefactored\obj\Debug\netcoreapp2.2\Razor\Views\Home\Result.g.cshtml.cs
